@@ -1,0 +1,20 @@
+# Arquivos do VS Code
+.vscode/
+
+# Ambientes virtuais (caso venha a usar)
+venv/
+env/
+__pycache__/
+
+# Arquivos temporários do Python
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Notebooks Jupyter (caso use futuramente)
+*.ipynb_checkpoints/
