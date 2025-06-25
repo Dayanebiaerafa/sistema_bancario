@@ -40,7 +40,7 @@ menu = """
 
 ### 🔷 2. Depósito
 - O valor digitado deve ser positivo.
-- A data e hora do depósito são registradas com datetime.now().
+- A data e hora do depósito são registradas com `datetime.now()`.
 - O valor é adicionado ao saldo e registrado no extrato.
 ```python
 depósito = """
@@ -53,7 +53,7 @@ extrato += f"{data_hora} - Depósito: R$ {valor:.2f}\n"
 ---
 
 ### 🔷 3. Saque
-- Validações importantes:
+Validações importantes:
 - Saldo suficiente?
 - Valor dentro do limite de saque?
 - Número de saques diários não ultrapassado?
