@@ -1,20 +1,24 @@
-# Arquivos do VS Code
-.vscode/
-
-# Ambientes virtuais (caso venha a usar)
-venv/
-env/
+# Cache e arquivos compilados do Python
 __pycache__/
-
-# Arquivos temporários do Python
 *.pyc
 *.pyo
-*.pyd
-*.log
 
-# Arquivos de sistema operacional
+# Arquivos temporários de editor e sistema
+*.log
+*.tmp
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
+
+# Ambientes virtuais (se criar futuramente)
+env/
+venv/
+.venv/
+
+# Configurações de IDEs (VSCode, PyCharm, etc)
+.vscode/
+.idea/
 
 # Notebooks Jupyter (caso use futuramente)
 *.ipynb_checkpoints/
