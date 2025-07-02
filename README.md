@@ -47,6 +47,7 @@ Além disso, o projeto faz uso de:
 
 - `argumento por posição` (`/`) → para garantir que certos parâmetros sejam passados apenas por ordem.
 - `argumento nomeado` (`*`) → para forçar que certos parâmetros sejam passados explicitamente pelo nome, aumentando a clareza.
+- A biblioteca ```textwrap ```para alinhar menus no terminal de forma limpa
 
 ### 1. Exemplo do Menu Principal com `textwrap`
 
@@ -92,7 +93,7 @@ Validações importantes:
 - Saldo suficiente?
 - Valor dentro do limite de saque?
 - Número de saques diários não ultrapassado?
-- Se aprovado:
+Se aprovado:
 - Subtrai do saldo
 - Registra a data e hora
 - Atualiza o extrato
