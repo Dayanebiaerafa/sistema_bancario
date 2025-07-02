@@ -93,6 +93,7 @@ Validações importantes:
 - Saldo suficiente?
 - Valor dentro do limite de saque?
 - Número de saques diários não ultrapassado?
+
 Se aprovado:
 - Subtrai do saldo
 - Registra a data e hora
